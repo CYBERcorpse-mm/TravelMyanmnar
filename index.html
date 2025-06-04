@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Myanmar - The Golden Land</title>
+    <!-- Bootstrap CSS from W3Schools -->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link id="theme-style" rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#destinations">Destinations</a>
+  <a href="#culture">Culture</a>
+  <a href="#food">Food</a>
+  <a href="#team">Our Team</a>
+  <a href="#contact">Contact</a>
+  <a href="login.html">Login</a>
+  <a href="signup.html">Sign Up</a>
+  <button id="theme-toggle-side" class="theme-toggle">Toggle Dark Mode</button>
+  <h2>Change your language here:</h2>
+  <div class="dropdown-content-1">
+    <a href="#">English</a>
+    <a href="#">မြန်မာဘာသာ</a>
+  </div>
+</div>
+
+<header id="home">
+    <nav class="navbar">
+        <div class="logo">Myanmar<span>.</span></div>
+        <div id="hamburger-menu">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="bi bi-list"></i></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li class="language-dropdown">
+                <div class="dropdown-btn">Language</div>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">မြန်မာဘာသာ</a>
+                </div>
+            </li>
+            <li>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <div class="hero-content">
+        <h1>Discover <span>Myanmar</span></h1>
+        <p>Experience the mystical beauty, rich culture, and hidden wonders of Myanmar - a land of golden pagodas and timeless traditions.</p>
+        <div>
+            <a href="#destinations" class="btn primary-btn">Explore Destinations</a>
+            <a href="#about" class="btn secondary-btn">Learn More</a>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-title">
+            <h2>About Myanmar</h2>
+            <p>Discover the enchanting blend of natural beauty, ancient heritage and warm hospitality</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>The Land of Golden Pagodas</h3>
+                <p>Myanmar, formerly known as Burma, is a mystical land located in Southeast Asia. Bordered by China, Thailand, India, Laos and Bangladesh, it's a country blessed with rich biodiversity, abundant natural resources, and a cultural heritage dating back thousands of years.</p>
+                <p>After decades of isolation, Myanmar has opened its doors to the world, revealing its untouched beauty and preserved traditions. From the shimmering spires of Shwedagon Pagoda to the ancient temples of Bagan, the natural beauty of Inle Lake, and the pristine beaches of Ngapali, Myanmar offers experiences that captivate the heart and inspire the soul.</p>
+            </div>
+            <div class="about-img">
+                <img src="https://cdn.pixabay.com/photo/2021/08/01/21/06/shwezigon-pagoda-6515356_1280.jpg" alt="Shwezigon Pagoda in Myanmar">
+            </div>
+        </div>
+
+        <div class="facts-container">
+            <div class="fact-box">
+                <h3><i class="bi bi-globe2"></i> Geography</h3>
+                <p>Myanmar spans over 676,578 sq km, featuring diverse landscapes from mountains and highlands to plains, valleys, and over 2,000 km of coastline along the Bay of Bengal and Andaman Sea.</p>
+            </div>
+            <div class="fact-box">
+                <h3><i class="bi bi-people-fill"></i> Population</h3>
+                <p>Home to over 54 million people from 135 distinct ethnic groups, each with their unique customs, languages, and traditions, creating a rich cultural mosaic.</p>
+            </div>
+            <div class="fact-box">
+                <h3><i class="bi bi-clock-history"></i> History</h3>
+                <p>With a history spanning over 2,000 years, Myanmar has witnessed powerful kingdoms, British colonization, independence in 1948, and decades of military rule before recent democratic reforms.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="destinations" class="destinations">
+    <div class="container">
+        <div class="section-title">
+            <h2>Top Destinations</h2>
+            <p>Explore the most breathtaking places that Myanmar has to offer</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card destination-card">
+                    <img src="https://cdn.pixabay.com/photo/2016/08/08/09/47/myanmar-1577961_1280.jpg" alt="Bagan Temples">
+                    <div class="destination-content">
+                        <h3>Bagan</h3>
+                        <p>An ancient city with over 2,000 well-preserved temples and pagodas spread across a vast plain.</p>
+                        <a href="GAY.html" class="read-more">Discover More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card destination-card">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/31/19/26/fisherman-1559753_1280.jpg" alt="Inle Lake">
+                    <div class="destination-content">
+                        <h3>Inle Lake</h3>
+                        <p>A magical freshwater lake known for its leg-rowing fishermen, floating gardens, and stilt houses.</p>
+                        <a href="inle_lake.html" class="read-more">Discover More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card destination-card">
+                    <img src="https://cdn.pixabay.com/photo/2020/10/06/12/16/kuthodaw-pagoda-5632067_1280.jpg" alt="Mandalay">
+                    <div class="destination-content">
+                        <h3>Mandalay</h3>
+                        <p>The cultural capital with royal palaces, traditional crafts and the world's largest book at Kuthodaw Pagoda.</p>
+                        <a href="mandalay.html" class="read-more">Discover More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card destination-card">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/16/19/40/pagoda-1985339_1280.jpg" alt="Yangon">
+                    <div class="destination-content">
+                        <h3>Yangon</h3>
+                        <p>The former capital featuring the iconic Shwedagon Pagoda, colonial architecture, and vibrant markets.</p>
+                        <a href="yangon.html" class="read-more">Discover More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card destination-card">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/07/13/44/mountain-5013131_1280.jpg" alt="Hpa-An">
+                    <div class="destination-content">
+                        <h3>Hpa-An</h3>
+                        <p>A picturesque region known for its stunning limestone karst mountains, caves, and serene landscapes.</p>
+                        <a href="hpa_an.html" class="read-more">Discover More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card destination-card">
+                    <img src="https://cdn.pixabay.com/photo/2020/01/06/11/12/beach-4745257_1280.jpg" alt="Ngapali Beach">
+                    <div class="destination-content">
+                        <h3>Ngapali Beach</h3>
+                        <p>Myanmar's premier beach destination with pristine white sands, crystal-clear waters, and fishing villages.</p>
+                        <a href="ngapali.html" class="read-more">Discover More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="culture" class="culture">
+    <div class="container">
+        <div class="section-title">
+            <h2>Culture & Traditions</h2>
+            <p>Immerse yourself in Myanmar's rich cultural heritage and ancient traditions</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card culture-item">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/08/05/11/umbrella-1807513_1280.jpg" alt="Buddhist Monks">
+                    <div class="culture-content">
+                        <h3><i class="bi bi-peace"></i> Buddhism & Spirituality</h3>
+                        <p>Buddhism is deeply woven into the fabric of Myanmar's society, influencing daily life, art, and architecture. Monks in their distinctive maroon robes are a common sight, and pagodas dot the landscape as symbols of devotion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card culture-item">
+                    <img src="https://cdn.pixabay.com/photo/2019/12/28/02/19/myanmar-4723740_1280.jpg" alt="Thanaka Paste">
+                    <div class="culture-content">
+                        <h3><i class="bi bi-flower1"></i> Thanaka</h3>
+                        <p>The distinctive yellow-white paste made from ground bark is a unique aspect of Myanmar culture. Applied to the face as both cosmetic and sunscreen, it's a traditional beauty practice dating back centuries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card culture-item">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/14/04/25/umbrella-1822586_1280.jpg" alt="Traditional Dress">
+                    <div class="culture-content">
+                        <h3><i class="bi bi-palette"></i> Traditional Dress</h3>
+                        <p>The longyi, a sarong-like garment worn by both men and women, is the traditional attire of Myanmar. Each ethnic group has its own distinctive patterns and styles, reflecting their unique cultural identity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="food" class="food">
+    <div class="container">
+        <div class="section-title">
+            <h2>Culinary Delights</h2>
+            <p>Explore the rich and diverse flavors of Myanmar's traditional cuisine</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-cup-hot"></i> Mohinga</h3>
+                    <p>Considered Myanmar's national dish, Mohinga is a fragrant fish soup with rice noodles, typically enjoyed for breakfast. It's seasoned with lemongrass, ginger, and served with crispy fritters, boiled eggs, and fresh herbs.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-tree"></i> Lahpet Thoke</h3>
+                    <p>A unique fermented tea leaf salad that perfectly balances sour, spicy, and savory flavors. Mixed with crunchy beans, nuts, sesame seeds, and seasoned with lime juice and garlic oil.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-egg-fried"></i> Shan Noodles</h3>
+                    <p>Originating from the Shan State, this beloved noodle dish features rice noodles in a flavorful chicken or pork broth, topped with marinated meat, crunchy peanuts, and chili oil.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-droplet"></i> Mont Lin Ma Yar</h3>
+                    <p>Known as "couple snacks," these are small rice pancakes with quail eggs, spring onions, and other toppings. The batter is cooked in a special pan with rounded molds.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-water"></i> Ohn No Khao Swe</h3>
+                    <p>A coconut milk-based chicken curry served with egg noodles, garnished with crispy fried onions, chili oil, and hard-boiled eggs. A creamy, comforting dish.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-brush"></i> Nan Gyi Thoke</h3>
+                    <p>A hearty salad made with thick rice noodles, chicken curry, chickpea flour, and chili oil. It's typically garnished with sliced onions, lime, and crispy fried fritters.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-grid"></i> Htamin Jin</h3>
+                    <p>A rice salad from the Shan State made with fermented rice, tomatoes, garlic oil, and turmeric. It has a tangy flavor and is usually served with deep-fried pork rinds.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="food-card">
+                    <h3><i class="bi bi-cup"></i> Burmese Curry</h3>
+                    <p>Unlike the curries of neighboring countries, Burmese curries are less spicy and more savory, with a rich oil-based sauce. They come in various proteins including chicken, pork, fish, or vegetable options.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="team" class="team">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Team</h2>
+            <p>Meet the passionate team behind Myanmar Tourism</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="" alt="Aung Khant Min">
+                    </div>
+                    <h3 class="member-name">Aung Khant Min</h3>
+                    <p class="member-role">Software-Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="" alt="Honey">
+                    </div>
+                    <h3 class="member-name">Honey</h3>
+                    <p class="member-role">THIS B*TCH DID NOTHING!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="" alt="ChatGPT">
+                    </div>
+                    <h3 class="member-name">ChatGPT</h3>
+                    <p class="member-role">Researcher, Content-Writer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for travel information or to plan your Myanmar adventure</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="mb-3"><i class="bi bi-info-circle"></i> Travel Information</h3>
+                        <p><i class="bi bi-envelope me-2"></i> j2475296@gmail.com</p>
+                        <p><i class="bi bi-telephone me-2"></i> +95 9 783 656600</p>
+                        <p><i class="bi bi-geo-alt me-2"></i> 123 Yankin Road, Yangon, Myanmar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="mb-3"><i class="bi bi-chat-text"></i> Send Us a Message</h3>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <input type="text" placeholder="Subject">
+                            <textarea placeholder="Your Message"></textarea>
+                            <button type="submit"><i class="bi bi-send"></i> Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-item">
+                    <h3>Myanmar Tourism</h3>
+                    <p>Your gateway to exploring the hidden gem of Southeast Asia. We're dedicated to showcasing Myanmar's natural beauty and cultural heritage.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="btn btn-dark"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-dark"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-dark"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-dark"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-item">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="bi bi-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="bi bi-chevron-right"></i> About Myanmar</a></li>
+                        <li><a href="#destinations"><i class="bi bi-chevron-right"></i> Top Destinations</a></li>
+                        <li><a href="#culture"><i class="bi bi-chevron-right"></i> Culture</a></li>
+                        <li><a href="#food"><i class="bi bi-chevron-right"></i> Traditional Food</a></li>
+                        <li><a href="#team"><i class="bi bi-chevron-right"></i> Our Team</a></li>
+                        <li><a href="#contact"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                        <li><a href="login.html"><i class="bi bi-chevron-right"></i> Login</a></li>
+                        <li><a href="signup.html"><i class="bi bi-chevron-right"></i> Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-item">
+                    <h3>Travel Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="bi bi-file-text"></i> Visa Information</a></li>
+                        <li><a href="#"><i class="bi bi-calendar-check"></i> Best Time to Visit</a></li>
+                        <li><a href="#"><i class="bi bi-bus-front"></i> Transportation</a></li>
+                        <li><a href="#"><i class="bi bi-shield-check"></i> Travel Safety</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Myanmar Tourism. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="Javascript/responsive.js"></script>
+<script src="Javascript/theme.js"></script>
+</body>
+</html>
